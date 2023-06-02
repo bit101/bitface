@@ -15,7 +15,7 @@ Build requirements:
 
 https://developer.garmin.com/connect-iq/overview/
 
-This is the SDK, tool kit and simulator used to compile the face. Install as per instructions.
+This contains the language, Monkey-C which is what Garmin faces and apps are written in, and the SDK, tool kit and simulator used to compile the face. Install as per instructions.
 
 You'll also need to generate a developer key per the instructions. This should go in `build_res/developer_key`.
 
