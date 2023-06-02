@@ -37,6 +37,8 @@ And if you do anything to the font or drawables, you need to clear the app cache
 
 Make sure you run the simulator before building. The make file will run the newly built app in the simulator.
 
-Fonts and other drawables are also defined in the `resources` files. If you change anything, update those.
+Fonts and other drawables are also defined in the `resources` files (`fonts.xml` and `drawables.xml`) . If you change anything, update those.
 
 To make this run on other watch types, update the `manifest.xml` file. And change the target device in the make file too.
+
+Build resources (FontBM, the ttf font file and developer key) are stored in `build_res`.
