@@ -3,7 +3,7 @@ Garmin Watch Face
 
 ![bitface](bitface.jpg)
 
-This is a very simple watch face I made for my Garmin Forerunner 255. Made for my own education and because I wanted a highly visible watch face with time, date, steps and heart rate and not much else.
+This is a very simple watch face I made for my Garmin Forerunner 255. Made for my own education and because I wanted a highly visible watch face with time, date, steps and heart rate and not much else. The photo makes it seem to have a colored gradient background, but that's just a reflection. It's all black and white except for the red heart icon.
 
 This will probably work on most Garmin watches, but sizes may need to be adjusted.
 
@@ -15,7 +15,7 @@ Build requirements:
 
 https://developer.garmin.com/connect-iq/overview/
 
-This contains the language, Monkey-C which is what Garmin faces and apps are written in, and the SDK, tool kit and simulator used to compile the face. Install as per instructions.
+This contains the language, Monkey-C, which is what Garmin faces and apps are written in, and the SDK, tool kit and simulator used to compile the face. Install as per instructions.
 
 You'll also need to generate a developer key per the instructions. This should go in `build_res/developer_key`.
 
