@@ -1,6 +1,8 @@
 # bitface
 Garmin Watch Face
 
+![bitface](bitface.jpg)
+
 This is a very simple watch face I made for my Garmin Forerunner 255. Made for my own education and because I wanted a highly visible watch face with time, date, steps and heart rate and not much else.
 
 This will probably work on most Garmin watches, but sizes may need to be adjusted.
