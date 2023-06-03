@@ -9,6 +9,8 @@ This will probably work on most Garmin watches, but sizes may need to be adjuste
 
 The current Garmin documentation pushes you towards using Visual Studio Code and the Monkey-C extension for Code. I was unable to get this working correctly on Manjaro Linux so I set up this project to use neovim and make.
 
+Update on the extension: It was not available to install at all via VS Code's extension manager, but I was able to install it eventualy by downloading the extension itself to my computer and installing it via VSIX. I still prefer using vim though.
+
 ## Build requirements:
 
 ### Garmin ConnectIQ
