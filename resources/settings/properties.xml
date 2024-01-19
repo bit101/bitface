@@ -1,0 +1,3 @@
+<properties>
+    <property id="UseMilitaryFormat" type="boolean">false</property>
+</properties>
