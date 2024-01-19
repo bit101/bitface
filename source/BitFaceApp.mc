@@ -17,8 +17,8 @@ class BitFaceApp extends Application.AppBase {
     }
 
     // Return the initial view of your application here
-    function getInitialView() as Array<Views or InputDelegates>? {
-        return [ new BitFaceView() ] as Array<Views or InputDelegates>;
+    function getInitialView() as [Views] or [Views, InputDelegates] {
+        return [ new BitFaceView() ];
     }
 
 }
