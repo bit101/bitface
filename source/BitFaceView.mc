@@ -37,12 +37,20 @@ class BitFaceView extends WatchUi.WatchFace {
     }
 
     function drawTime(dc) {
+      var timeFormat = "$1$:$2$";
       var clockTime = System.getClockTime();
-      var hour = clockTime.hour;
-      if (hour > 12) {
-        hour -= 12;
+      var hours = clockTime.hour;
+      if (!System.getDeviceSettings().is24Hour) {
+        if (hours > 12) {
+          hours -= 12;
+        }
+      } else {
+          if (getApp().getProperty("UseMilitaryFormat")) {
+              timeFormat = "$1$$2$";
+              hours = hours.format("%02d");
+          }
       }
-      var timeString = Lang.format("$1$:$2$", [hour, clockTime.min.format("%02d")]);
+      var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d")]);
 
       dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
 
